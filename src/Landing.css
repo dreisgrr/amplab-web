@@ -141,6 +141,15 @@ nav {
   li.fade {
     opacity: 1;
   }
+  .amplab p {
+    font-size: 4em;
+  }
+  .weare h1 {
+    font-size: 3em;
+  }
+  .content p {
+    font-size: 20px;
+  }
 }
 
 h1,
@@ -150,13 +159,4 @@ p {
 
 p {
   font-size: 20px;
-}
-
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 5em;
-  }
-  p {
-    font-size: 25px;
-  }
 }
