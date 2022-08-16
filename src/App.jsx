@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Fragment>
       <Routes>
-      <Route exact path='/healthNow' element={<AskMara/>}>
+      <Route exact path='/HealthNowVoucher' element={<AskMara/>}>
       </Route>
       <Route exact path='/' element={<Landing/>}>
       </Route>
