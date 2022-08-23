@@ -1,3 +1,4 @@
+import "./css/bootstrap.min.css";
 import "./Landing.css";
 import { useEffect } from "react";
 
