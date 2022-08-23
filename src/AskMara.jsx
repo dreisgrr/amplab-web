@@ -10,12 +10,6 @@ function AskMara() {
       <header class="navbar navbar-dark bg-purple"></header>
       <div class="container-mara">
         <div class="row page-1">
-          <p>
-            You are now leaving Ask Mara. Ask Mara provides links to third-party
-            websites that may be of interest to you in the area of healthcare. We
-            may share your personal data to these third-party websites to improve
-            Ask Mara services as stated in our Privacy Statement.
-          </p>
 
           <p>
             By clicking on the link provided, you will be redirected to a
