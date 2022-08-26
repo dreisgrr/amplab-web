@@ -35,7 +35,7 @@
   font-size: 1rem;
 }
 .bg-purple {
-  background-color: #6731c0;
+  background-color: #613bbb;
 }
 
 .navbar {
@@ -67,8 +67,8 @@
 
 .btn-purple {
   border-radius: 50px;
-  background-color: #6731c0;
-  border-color: #6731c0;
+  background-color: #613bbb;
+  border-color: #613bbb;
   color: #ffffffff;
   width: 150px;
   font-family: "Aileron";
@@ -81,8 +81,8 @@
 }
 
 .btn-blue {
-  background-color: #5ed1e2;
-  border-color: #5ed1e2;
+  background-color: #77d1e2;
+  border-color: #77d1e2;
   width: 150px;
   font-family: "Aileron";
 }
@@ -112,7 +112,7 @@
 }
 
 .footer-page1 {
-  background-color: #5ed1e2;
+  background-color: #77d1e2;
   position: absolute;
   bottom: 0;
   height: 50px;

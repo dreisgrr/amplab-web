@@ -2,14 +2,22 @@
 
 import "./AskMara.css";
 
+import { Link } from 'react-router-dom';
+
+let alertHello2 = () => 
+  alert("test");
+
+function alertHello() {
+  window.close(``, `_parent`, ``);
+}
 
 function AskMara() {
 
   return (
     <div className='body-mara'>
-      <header class="navbar navbar-dark bg-purple"></header>
-      <div class="container-mara">
-        <div class="row page-1">
+      <header className="navbar navbar-dark bg-purple"></header>
+      <div className="container-mara">
+        <div className="row page-1">
 
           <p>
             By clicking on the link provided, you will be redirected to a
@@ -20,18 +28,23 @@ function AskMara() {
             of questions about the services and products offered on the linked
             third-party site, please contact them directly.
           </p>
-          <div class="col-md-12 mt-20">
-            <button class="btn btn-purple btn-lg">PROCEED</button>
+          <div className="col-md-12 mt-20">
+            <Link className="btn btn-purple btn-lg" to={"/Proceed"}>PROCEED</Link>
           </div>
 
-          <div class="col-md-12 mt-20">
-            <button class="btn btn-blue btn-lg">EXIT</button>
+          <div className="col-md-12 mt-20">
+            <button className="btn btn-blue btn-lg" onClick= {alertHello}>EXIT</button>
           </div>
         </div>
       </div>
-      <footer class="footer-page1"></footer>
+      <footer className="footer-page1"></footer>
     </div>
   );
 }
+
+function windowClose() {
+
+    alert('test')
+  }
 
 export default AskMara;
