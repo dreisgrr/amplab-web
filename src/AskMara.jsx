@@ -4,13 +4,6 @@ import "./AskMara.css";
 
 import { Link } from 'react-router-dom';
 
-let alertHello2 = () => 
-  alert("test");
-
-function alertHello() {
-  window.close(``, `_parent`, ``);
-}
-
 function AskMara() {
 
   return (
@@ -33,7 +26,7 @@ function AskMara() {
           </div>
 
           <div className="col-md-12 mt-20">
-            <button className="btn btn-blue btn-lg" onClick= {alertHello}>EXIT</button>
+            <Link className="btn btn-blue btn-lg" to={"/Thankyou"}>EXIT</Link>
           </div>
         </div>
       </div>

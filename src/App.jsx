@@ -4,6 +4,7 @@ import Landing from "./Landing";
 import AskMara from "./AskMara";
 import Proceed from "./Proceed";
 import VoucherCode from "./VoucherCode";
+import Thankyou from "./Thankyou";
 import { Fragment } from "react";
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Route exact path='/Proceed' element={<Proceed/>}>
       </Route>
       <Route exact path='/VoucherCode' element={<VoucherCode/>}>
+      </Route>
+      <Route exact path='/Thankyou' element={<Thankyou/>}>
       </Route>
       <Route exact path='/' element={<Landing/>}>
       </Route>

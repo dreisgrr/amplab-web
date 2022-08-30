@@ -101,6 +101,9 @@
   font-weight: 300;
   font-size: 1rem;
 }
+.thankyouText {
+  vertical-align: middle;
+}
 
 .mt-20 {
   margin-top: 20px;
