@@ -1,5 +1,4 @@
 import "./VoucherCode.css";
-import { Link } from 'react-router-dom';
 
 import logo from "../src/assets/logo.png";
 import footer3 from "../src/assets/footer_page3.png";
@@ -19,8 +18,8 @@ function VoucherCode() {
                     <div className="col-md-12">
                         <h2>Thank you!</h2>
                         <h3>GET P150 OFF</h3>
-                        <div className="code"><h4>USE CODE: XXXXX</h4></div>
-                        <p>on specialist consultation</p> 
+                        <div className="code"><h4>USE CODE: WCDCL150</h4></div>
+                        <p>on OB-GYN consultation</p> 
                     </div>
 
                     <div className="col-md-12 mobile-show">
@@ -35,15 +34,16 @@ function VoucherCode() {
                 </div>
             </div>
             <footer class="footer-page2">
-                <div class="row align-items-end mobile-hide">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-2">
+                <div class="row mobile-hide">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
                             <h5>How to use your voucher</h5>
                             <ol>
-                                <li>Download the HealthNow app from the Google Play/App Store.</li>
-                                <li>Register your account in HealthNow.</li>
-                                <li>Select from one of the services provided by HealthNow and avail the P150 discount.</li>
-                                <li>Use the code above.</li>
+                                <li>Download and register on the HealthNow app.</li>
+                                <li>Select Consult Later > OB-GYN, and browse through the available doctors.</li>
+                                <li>Choose your doctor and preferred date and time for the video consultation.</li>
+                                <li>Input promo code upon payment to get P150 OFF.</li>
+                                <li>Access the HealthNow app on the scheduled date and time to start your consultation!</li>
                             </ol>
                     </div>
                     <div class="col-md-6 text-left ">
