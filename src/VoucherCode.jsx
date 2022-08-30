@@ -25,11 +25,12 @@ function VoucherCode() {
                     <div className="col-md-12 mobile-show">
                         <h5>How to use your voucher</h5>
                         <ol>
-                            <li>Download the HealthNow app from the Google Play/App Store.</li>
-                            <li>Register your account in HealthNow.</li>
-                            <li>Select from one of the services provided by HealthNow and avail the P150 discount.</li>
-                            <li>Use the code above.</li>
-                        </ol>
+                                <li>Download and register on the HealthNow app.</li>
+                                <li>Select Consult Later > OB-GYN, and browse through the available doctors.</li>
+                                <li>Choose your doctor and preferred date and time for the video consultation.</li>
+                                <li>Input promo code upon payment to get P150 OFF.</li>
+                                <li>Access the HealthNow app on the scheduled date and time to start your consultation!</li>
+                            </ol>
                     </div>
                 </div>
             </div>
