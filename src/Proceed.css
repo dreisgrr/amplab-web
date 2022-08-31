@@ -172,8 +172,8 @@
 @media only screen and (max-width: 414px) {
   .page-2 h3,
   .page-2 h4 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -198,7 +198,7 @@
     width: 50%;
   }
   .page-2 .logo-2 > img {
-    width: 70%;
+    width: 80%;
   }
   .footer-page2 .download {
     width: 100%;
