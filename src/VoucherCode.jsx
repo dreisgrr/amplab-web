@@ -34,10 +34,10 @@ function VoucherCode() {
                     </div>
                 </div>
             </div>
-            <footer class="footer-page2">
-                <div class="row mobile-hide">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-4">
+            <footer className="footer-page2">
+                <div className="row mobile-hide">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-4">
                             <h5>How to use your voucher</h5>
                             <ol>
                                 <li>Download and register on the HealthNow app.</li>
@@ -47,13 +47,13 @@ function VoucherCode() {
                                 <li>Access the HealthNow app on the scheduled date and time to start your consultation!</li>
                             </ol>
                     </div>
-                    <div class="col-md-6 download2 text-left ">
-                        <img src={footer3} class="footer-doc " width="30%"/>
+                    <div className="col-md-6 download2 text-left ">
+                        <img src={footer3} className="footer-doc " width="30%"/>
                     </div>
                     
                 </div>
                 
-                <div class="col-md-12"></div>
+                <div className="col-md-12"></div>
             </footer>
         </div>
     );

@@ -1,9 +1,33 @@
+/* montserrat-regular - latin */
 @font-face {
   font-family: "Montserrat";
-  src: url("../src/fonts/Montserrat_regular.ttf") format("ttf");
-  font-weight: 900;
   font-style: normal;
-  font-display: swap;
+  font-weight: 400;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/montserrat-v25-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-regular.woff")
+      format("woff");
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat Med";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/montserrat-v25-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-600.woff")
+      format("woff");
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/montserrat-v25-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-900.woff")
+      format("woff");
 }
 .body-proceed {
   margin: 0 auto;

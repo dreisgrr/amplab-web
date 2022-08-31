@@ -1,9 +1,33 @@
+/* montserrat-regular - latin */
 @font-face {
   font-family: "Montserrat";
-  src: url("../src/fonts/Montserrat_regular.ttf") format("ttf");
-  font-weight: 900;
   font-style: normal;
-  font-display: swap;
+  font-weight: 400;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/montserrat-v25-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-regular.woff")
+      format("woff");
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat Med";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/montserrat-v25-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-600.woff")
+      format("woff");
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    /* IE6-IE8 */ url("./fonts/montserrat-v25-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-900.woff")
+      format("woff");
 }
 @font-face {
   font-family: "Aileron";
@@ -74,13 +98,13 @@
 }
 
 .page-3 h2 {
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat Bold", cursive;
   color: #613bbb;
   font-size: 4.5rem;
 }
 
 .page-3 h3 {
-  font-family: "Montserrat";
+  font-family: "Montserrat Med";
   color: #77d1e2;
   font-size: 2.5rem;
 }
@@ -91,7 +115,7 @@
 }
 
 .page-3 h4 {
-  font-family: "Montserrat";
+  font-family: "Montserrat Med";
   color: white;
   background-color: #613bbb;
   padding: 10px 20px;
