@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../src/fonts/Montserrat_regular.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 .body-proceed {
   margin: 0 auto;
   display: block;
@@ -69,9 +76,9 @@
 }
 
 .page-2 .banner {
-  min-height: 240px;
-  width: 100vw;
-  background-image: url("./assets/banner_page2.png");
+  min-height: 340px;
+  width: 100%;
+  background-image: url("./assets/banner_page2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
@@ -88,14 +95,14 @@
 
 .page-2 h3 {
   color: #613bbb;
-  font-family: "Aileron";
+  font-family: "Montserrat";
   margin-top: 10px;
   letter-spacing: 1px;
 }
 
 .page-2 h4 {
   color: #77d1e2;
-  font-family: "Aileron";
+  font-family: "Montserrat";
   margin-top: 20px;
   letter-spacing: 1px;
 }
@@ -121,9 +128,13 @@
 }
 .footer-page2 h5 {
   color: #613bbb;
-  font-family: "Aileron";
+  font-family: "Montserrat";
   letter-spacing: 1px;
   margin-top: 20px;
+}
+.footer-doc {
+  width: 100%;
+  max-width: 500px;
 }
 @media only screen and (max-width: 280px) {
   .footer-page2 h5 {
@@ -160,6 +171,10 @@
   }
   .footer-page2 .col-md-6 {
     width: 50%;
+  }
+  .footer-page2 h5,
+  .footer-page2 .playstore {
+    text-align: center;
   }
   .footer-doc {
     width: 100%;

@@ -32,29 +32,30 @@ function Proceed() {
 
                 </div>
             </div>
-            <footer class="footer-page2">
-                <div class="row align-items-end">
-                    <div class="col-md-6 text-right">
-                        <img src={footer} class="footer-doc " width="30%"/>
+            <footer className="footer-page2">
+                <div className="row align-items-center">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-4 playstore">
+                        <img src={footer} className="footer-doc " width="30%"/>
                     </div>
 
                     <div class="col-md-6">
                             <h5>Download the <br/> HealthNow app at</h5>
-                            <div>
+                            <div className="playstore">
                                 <a href="#">
-                                    <img src={playstore} class="badgedl mb-10" alt="" width="150px"/>
+                                    <img src={playstore} className="badgedl mb-10" alt="" width="150px"/>
                                 </a>
                             </div>
                             
-                            <div>
+                            <div className="playstore">
                                 <a href="#">
-                                    <img src={appstore} class="badgedl mb-20" alt="" width="150px"/>
+                                    <img src={appstore} className="badgedl mb-20" alt="" width="150px"/>
                                 </a>
                             </div>
                     </div>
                 </div>
                 
-                <div class="col-md-12"></div>
+                <div className="col-md-12"></div>
             </footer>
         </div>
     );
