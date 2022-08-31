@@ -169,6 +169,13 @@
     width: 100px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .page-2 h3,
+  .page-2 h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 
 @media only screen and (min-width: 576px) {
   .navbar > .nav-container {
