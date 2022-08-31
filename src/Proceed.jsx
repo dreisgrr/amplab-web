@@ -39,7 +39,7 @@ function Proceed() {
                         <img src={footer} className="footer-doc " width="30%"/>
                     </div>
 
-                    <div class="col-md-6">
+                    <div className="col-md-6 download">
                             <h5>Download the <br/> HealthNow app at</h5>
                             <div className="playstore">
                                 <a href="#">

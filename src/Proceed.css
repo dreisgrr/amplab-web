@@ -169,8 +169,8 @@
   .page-2 .logo-2 > img {
     width: 70%;
   }
-  .footer-page2 .col-md-6 {
-    width: 50%;
+  .footer-page2 .download {
+    width: 100%;
   }
   .footer-page2 h5,
   .footer-page2 .playstore {

@@ -47,7 +47,7 @@ function VoucherCode() {
                                 <li>Access the HealthNow app on the scheduled date and time to start your consultation!</li>
                             </ol>
                     </div>
-                    <div class="col-md-6 text-left ">
+                    <div class="col-md-6 download2 text-left ">
                         <img src={footer3} class="footer-doc " width="30%"/>
                     </div>
                     
