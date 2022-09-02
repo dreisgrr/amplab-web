@@ -25,7 +25,7 @@ function Proceed() {
                 <div className="row text-center contents">
                     <div className="col-md-12">
                         <div className="logo-2"><img src={logo2}/></div>
-                        <h3>Thank you for you interest to consult with an OB-GYNE.</h3>
+                        <h3>Thank you for your interest to consult with an OB-GYNE.</h3>
                         <h4>Click here to get your voucher code</h4>
                         <Link className="btn btn-purple btn-lg" to={"/VoucherCode"}>PROCEED</Link>
                     </div>
